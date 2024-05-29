@@ -15,8 +15,76 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 
 	
 	<body>
-			<form action="output3.php" method="post">
+		<form action="output3.php" method="post">
 			
+		<label for="IDnome">Nome :</label>
+									<input type="text" name="nome" id="IDnome" required></br></br>
+<hr>
+		<label for="IDcognome">Cogome :</label>
+									<input type="text" name="cognome" id="IDcognome" required></br></br>		
+<hr>
+		<lable for="IDpreferenza">Preferenza calcistica</lable></br></br></br>	
+
+			<input type="checkbox" id="IDroma" name="PrefSqadra[]" value="Roma">
+		<label for ="IDroma">Roma</label></br></br>
+
+			<input type="checkbox" id="IDInter" name="PrefSqadra[]" value="Inter">
+		<label for ="IDInter">Inter</label></br></br>
+
+			<input type="checkbox" id="IDTorino" name="PrefSqadra[]" value="Torino">
+		<label for ="IDTorino">Torino</label></br></br>
+
+			<input type="checkbox" id="IDUdinese" name="PrefSqadra[]" value="Udinese">
+		<label for ="IDUdinese">Udinese</label></br></br>
+
+			<input type="checkbox" id="IDJuventus" name="PrefSqadra[]" value="Juventus">
+		<label for ="IDJuventus">Juventus</label></br></br>
+
+			<input type="checkbox" id="IDroma" name="PrefSqadra[]" value="Roma">
+		<label for ="IDroma">Lazio</label></br></br></br></br>		
+
+<hr>
+				
+			<input type="radio" id="IDgiallo" name="Genere" value="Giallo">
+		<label for="IDgiallo">Giallo</label></br></br>
+
+			<input type="radio" id="IDFantascienza" name="Genere" value="Fantascienza">
+		<label for="IDFantascienza">Fantascienza</label></br></br>
+		
+			<input type="radio" id="IDHorror" name="Genere" value="Horror">
+		<label for="IDHorror">Horror</label></br></br>
+		
+
+
+		<select name="fiori[]" multiple="multiple">
+				<option value="Rosa">Rosa</option>
+			     <option value="Aglio delle bisce">Aglio delle bisce</option>
+			     <option value="Anemone" selected>Anemone Epatica</option>
+			     <option value="Agatea" selected="selected">Agatea</option>
+			     <option value="Amaranto" selected="selected">Amaranto</option>
+			     <option value="Viola">Viola</option>
+			     <option value="Azalea" selected="selected">Azalea</option>
+			     <option value="Margherita">Margherita</option>
+			     <option value="Astrusio">Astrusio</option>
+			     <option value="Lilium">Lilium</option>
+			     <option value="Nasturzio">Nasturzio</option>
+			     <option value="Papavero">Papavero</option>
+		</select>	
+
+
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Annulla le scelte">
+
+
+
+
+
+
+			<select >
+
+
+		</form>
 
 
 
