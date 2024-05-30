@@ -83,8 +83,16 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 							echo "<li>" . $Pos . "-" . $value. "</li>";
 
 						}
-					echo"</p>";	
+					echo"</p>";
 
+					}	
+
+					if(!isset($_POST['color'])){
+													echo"<p>";
+													echo"<h1>codice colore:</h1>";
+													
+													echo  $_POST['ColoreSfondo'];
+													echo"</p>";	
 				}
 
 
